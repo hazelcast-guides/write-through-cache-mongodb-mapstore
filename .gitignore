@@ -13,3 +13,4 @@ target/
 node_modules/
 local-docs/
 package-lock.json
+dependency-reduced-pom.xml

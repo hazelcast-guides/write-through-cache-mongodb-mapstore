@@ -1,3 +1,49 @@
-// Replace <filename> with the name of your repository, and replace <tutorial name> with the title of the tutorial.
-// For guidance on using this template, see .github/CONTRIBUTING.adoc
-This repository hosts the documentation and code samples for the link:https://docs.hazelcast.com/tutorials/<filename>[<tutorial name> tutorial].
+= Use Hazelcast as a Write-Through Cache with MongoDB
+:experimental: true
+
+This is an example of how to use MapStore and MongoDB with Hazelcast Viridian.
+
+TIP: For step-by-step instructions of how to run this app, see the link:https://docs.hazelcast.com/tutorials/write-through-cache-serverless-mapstore[tutorial].
+
+== Quickstart
+
+. Add the required values for Hazelcast Viridian Maven plugin in the POM:
+
+- `clusterName`: Name of your Hazelcast cluster
+- `apiKey`: API key
+- `apiSecret`: API secret
+
+. Deploy the modules.
++
+```bash
+mvn clean package hazelcast-cloud:deploy
+```
+
+. Configure the following properties for the MapStore in the Hazelcast Viridian console:
+
+- `uri`: link:https://docs.mongodb.com/manual/reference/connection-string/[MongoDB connection string]
+- `database`: Name of your MongoDB database
+
+== Classes
+
+- xref:src/main/java/sample/com/hazelcast/cloud/mapstore5/mongo/Person.java[Person] Entity class
+- xref:src/main/java/sample/com/hazelcast/cloud/mapstore5/mongo/MongoPersonRepository.java[MongoPersonRepository]
+  MongoDB implementation for Person Entity.
+- xref:src/main/java/sample/com/hazelcast/cloud/mapstore5/mongo/MongoPersonMapStore.java[PersonMapStore] MapStore
+  implementation for Person Entity.
+- xref:src/test/java/sample/com/hazelcast/cloud/mapstore5/mongo/MongoPersonMapStoreTest.java[PersonMapStoreTest]
+  Person MapStore tests.
+
+== Internal Hazelcast Developers
+
+If you want to try this application in the UAT or DEV environment, configure the `apiBaseUrl` element with your environment's URL. For DEV, use \https://test.dev.hazelcast.cloud, for UAT, use \https://uat.hazelcast.cloud.
+
+```xml
+<plugin>
+  ...
+  <configuration>
+    <apiBaseUrl></apiBaseURL>
+    ...
+  </configuration>
+</plugin>
+```
