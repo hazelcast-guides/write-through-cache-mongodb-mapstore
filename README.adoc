@@ -24,16 +24,6 @@ mvn clean package hazelcast-cloud:deploy
 - `uri`: link:https://docs.mongodb.com/manual/reference/connection-string/[MongoDB connection string]
 - `database`: Name of your MongoDB database
 
-== Classes
-
-- xref:src/main/java/sample/com/hazelcast/cloud/mapstore5/mongo/Person.java[Person] Entity class
-- xref:src/main/java/sample/com/hazelcast/cloud/mapstore5/mongo/MongoPersonRepository.java[MongoPersonRepository]
-  MongoDB implementation for Person Entity.
-- xref:src/main/java/sample/com/hazelcast/cloud/mapstore5/mongo/MongoPersonMapStore.java[PersonMapStore] MapStore
-  implementation for Person Entity.
-- xref:src/test/java/sample/com/hazelcast/cloud/mapstore5/mongo/MongoPersonMapStoreTest.java[PersonMapStoreTest]
-  Person MapStore tests.
-
 == Internal Hazelcast Developers
 
 If you want to try this application in the UAT or DEV environment, configure the `apiBaseUrl` element with your environment's URL. For DEV, use \https://test.dev.hazelcast.cloud, for UAT, use \https://uat.hazelcast.cloud.
