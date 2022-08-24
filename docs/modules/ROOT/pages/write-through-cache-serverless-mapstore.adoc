@@ -100,7 +100,7 @@ cd write-through-cache-mongodb-mapstore
 --
 ====
 
-The sample code for this tutorial is in the link:{github-directory}/src[`src/main/java/sample/com/hz/demos/mapstore/mongo/`] directory:
+The sample code for this tutorial is in the link:{github-directory}/src/main/java/sample/com/hz/demos/mapstore/mongo[`src/main/java/sample/com/hz/demos/mapstore/mongo/`] directory:
 
 .`Person.java`
 [%collapsible]
