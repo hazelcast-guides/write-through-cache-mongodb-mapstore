@@ -100,7 +100,7 @@ cd write-through-cache-mongodb-mapstore
 --
 ====
 
-The sample code for this tutorial is in the link:{github-directory}/src/main/java/sample/com/hz/demos/mapstore/mongo[`src/main/java/sample/com/hz/demos/mapstore/mongo/`] directory:
+The sample code for this tutorial is in the link:{github-directory}/tree/master/src/main/java/sample/com/hz/demos/mapstore/mongo[`src/main/java/sample/com/hz/demos/mapstore/mongo/`] directory:
 
 .`Person.java`
 [%collapsible]
@@ -116,7 +116,7 @@ To allow you to query the object fields with SQL, the fields include getters and
 include::write-through-cache-mongodb-mapstore:example$src/main/java/sample/com/hz/demos/mapstore/mongo/Person.java[tag=class]
 ----
 
-link:{github-directory}/src/main/java/sample/com/hz/demos/mapstore/mongo/Person.java[View source]
+link:{github-directory}/tree/master/src/main/java/sample/com/hz/demos/mapstore/mongo/Person.java[View source]
 ====
 
 .`MongoPersonRepository.java`
@@ -129,7 +129,7 @@ This class declares methods for interacting with the MongoDB database, using the
 include::write-through-cache-mongodb-mapstore:example$src/main/java/sample/com/hz/demos/mapstore/mongo/MongoPersonRepository.java[tag=class]
 ----
 
-link:{github-directory}/src/main/java/sample/com/hz/demos/mapstore/mongo/MongoPersonRepository.java[View source]
+link:{github-directory}/tree/master/src/main/java/sample/com/hz/demos/mapstore/mongo/MongoPersonRepository.java[View source]
 ====
 
 .`MongoPersonMapStore.java`
@@ -146,7 +146,7 @@ The `init()` method reads the database connection credentials from the Java prop
 include::write-through-cache-mongodb-mapstore:example$src/main/java/sample/com/hz/demos/mapstore/mongo/MongoPersonMapStore.java[tag=class]
 ----
 
-link:{github-directory}/src/main/java/sample/com/hz/demos/mapstore/mongo/MongoPersonMapStore.java[View source]
+link:{github-directory}/tree/master/src/main/java/sample/com/hz/demos/mapstore/mongo/MongoPersonMapStore.java[View source]
 ====
 
 [[step-three]]
