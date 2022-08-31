@@ -163,7 +163,7 @@ In this step, you'll use the xref:cloud:ROOT:maven-plugin-hazelcast.adoc[{hazelc
 |Element|Location in the Hazelcast {hazelcast-cloud} console
 
 |`<clusterName>`
-|Go to *Connect your Application*. The cluster name is listed in a table at the bottom of the modal window.
+|Go to *Connect Client*. The cluster name is listed in a table at the bottom of the modal window.
 
 |`<apiKey>` and `<apiSecret>`
 |
@@ -193,7 +193,9 @@ BUILD SUCCESS
 
 To use a MapStore, it must be configured for a specific map in Serverless. When a map is configured with a MapStore, Hazelcast plugs the MapStore implementation into the lifecycle of the map so that the MapStore is triggered when certain map operations are invoked.
 
-. Go to *Data Structure Config* > *Add New Configuration* in the  Hazelcast {hazelcast-cloud} console.
+. Open the Hazelcast {hazelcast-cloud} console.
+. Click *Add +* under *Data Structures* on the cluster dashboard.
+. Click *Add New Configuration* in the top right corner.
 . Enter *person* in the *Map Name* field.
 . In the bottom left corner, select *Enable MapStore*.
 . Select the *sample.com.hazelcast.cloud.mapstore5.mongo.MongoPersonMapStore* classname from the dropdown. If you don't see a classname, you need to <<step-three, deploy the MapStore to your {hazelcast-cloud} Serverless cluster>>.
@@ -228,7 +230,7 @@ To test that the MapStore is working, you need to create a map, add some entries
 
 . Sign into the Hazelcast {hazelcast-cloud} console.
 
-. Go to *Manage Cluster* > *Management Center*.
+. Click *Management Center*.
 
 . Click *SQL Browser* in the toolbar at the top of the page.
 
