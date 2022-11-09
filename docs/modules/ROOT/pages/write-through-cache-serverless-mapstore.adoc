@@ -7,6 +7,8 @@
 :page-serverless: true
 :description: In this tutorial, you'll build an application that writes changes made to a map back to MongoDB Atlas.
 :github-directory: https://github.com/hazelcast-guides/write-through-cache-mongodb-mapstore
+:cloud-category: Favorites
+:cloud-order: 1
 
 {description}
 
