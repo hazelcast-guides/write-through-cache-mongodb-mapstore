@@ -79,7 +79,7 @@
             <plugin>
                 <groupId>com.hazelcast.cloud</groupId>
                 <artifactId>hazelcast-cloud-maven-plugin</artifactId>
-                <version>0.0.4</version>
+                <version>0.0.5</version>
                 <configuration>
                     <apiBaseUrl>https://api.viridian.hazelcast.com</apiBaseUrl>
                     <clusterName></clusterName>
