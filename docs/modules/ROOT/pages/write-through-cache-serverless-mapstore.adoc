@@ -62,7 +62,7 @@ TIP: Make a note of these credentials because you will need to give them to {haz
 
 . Go to the *Collections* tab, click *Add My Own Data*, and create a database called *Hazelcast* with a collection called *person*.
 +
-Your {hazelcast-cloud} Serverless cluster will store your data in this *person* collection.
+Your {hazelcast-cloud} Standard cluster will store your data in this *person* collection.
 +
 image:mongo-db-atlas-setup.gif[Set up a database on MongoDB]
 
@@ -140,7 +140,7 @@ This class declares the trigger methods for the MapStore that will work with a m
 
 The class implements the `MapLoaderLifecycleSupport` interface to manage the connection to the database, using the `init()` and `destroy()` methods.
 
-The `init()` method reads the database connection credentials from the Java properties. You'll provide these in the Hazelcast {hazelcast-cloud} console when you configure the MapStore.
+The `init()` method reads the database connection credentials from the Java properties. You'll provide these in the {hazelcast-cloud} console when you configure the MapStore.
 
 [source,java]
 ----
@@ -161,10 +161,10 @@ In this step, you'll use the xref:cloud:ROOT:maven-plugin-hazelcast.adoc[Hazelca
 +
 [cols="1a,1a"]
 |===
-|Element|Location in the Hazelcast {hazelcast-cloud} console
+|Element|Location in the {hazelcast-cloud} console
 
 |`<clusterName>`
-|Next to *Connect Client*, select any client, and then go to *Advanced Setup*. The cluster name/ID is listed in a table at the bottom of the modal window.
+|Next to *Connect Client*, select any client, and then go to *Advanced Setup*. The cluster name/ID is at the top of the list.
 
 |`<apiKey>` and `<apiSecret>`
 |
@@ -194,7 +194,7 @@ BUILD SUCCESS
 
 To use a MapStore, it must be configured for a specific map in your {hazelcast-cloud} Standard cluster. When a map is configured with a MapStore, Hazelcast plugs the MapStore implementation into the lifecycle of the map so that the MapStore is triggered when certain map operations are invoked.
 
-. Open the Hazelcast {hazelcast-cloud} console.
+. Open the {hazelcast-cloud} console.
 . Click *Add +* under *Data Structures* on the cluster dashboard.
 . Click *Add New Configuration* in the top right corner.
 . Enter *person* in the *Map Name* field.
@@ -229,7 +229,7 @@ Hazelcast
 
 To test that the MapStore is working, you need to create a map, add some entries to it, and check that those entries are replicated to your MongoDB database.
 
-. Sign into the Hazelcast {hazelcast-cloud} console.
+. Sign into the {hazelcast-cloud} console.
 
 . Click *Management Center*.
 
