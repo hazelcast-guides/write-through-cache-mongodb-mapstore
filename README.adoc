@@ -9,7 +9,7 @@ TIP: For step-by-step instructions of how to run this app, see the link:https://
 
 . Add the required values for Hazelcast Viridian Maven plugin in the POM:
 
-- `clusterName`: Name of your Hazelcast cluster
+- `clusterId`: Id of your Hazelcast cluster
 - `apiKey`: API key
 - `apiSecret`: API secret
 
