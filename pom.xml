@@ -82,9 +82,9 @@
                 <version>0.2.0</version>
                 <configuration>
                     <apiBaseUrl>https://api.viridian.hazelcast.com</apiBaseUrl>
-                    <clusterId>wia6tu7z</clusterId>
-                    <apiKey>6LQ4lonOQrTv4ozyR8w9WEau4</apiKey>
-                    <apiSecret>6UN3MyZcCZvSHZldph01yrt2ZJeYK872WiXYEA4vikrTO9xfC5JuYvzr5Vwc</apiSecret>
+                    <clusterId></clusterId>
+                    <apiKey></apiKey>
+                    <apiSecret></apiSecret>
                 </configuration>
             </plugin>
             <!-- end::maven-plugin[] -->
