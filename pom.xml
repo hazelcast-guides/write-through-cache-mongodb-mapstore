@@ -14,7 +14,7 @@
         <hazelcast.version>5.3.2</hazelcast.version>
         <jdk.version>11</jdk.version>
         <logback-classic.version>1.4.14</logback-classic.version>
-        <lombok.version>1.18.22</lombok.version>
+        <lombok.version>1.18.30</lombok.version>
         <mongo-java-driver.version>3.12.7</mongo-java-driver.version>
         <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
         <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
@@ -82,9 +82,9 @@
                 <version>0.2.0</version>
                 <configuration>
                     <apiBaseUrl>https://api.viridian.hazelcast.com</apiBaseUrl>
-                    <clusterId></clusterId>
-                    <apiKey></apiKey>
-                    <apiSecret></apiSecret>
+                    <clusterId>wia6tu7z</clusterId>
+                    <apiKey>6LQ4lonOQrTv4ozyR8w9WEau4</apiKey>
+                    <apiSecret>6UN3MyZcCZvSHZldph01yrt2ZJeYK872WiXYEA4vikrTO9xfC5JuYvzr5Vwc</apiSecret>
                 </configuration>
             </plugin>
             <!-- end::maven-plugin[] -->
