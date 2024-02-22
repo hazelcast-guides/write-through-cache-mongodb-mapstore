@@ -35,7 +35,7 @@ You'll need the following to complete this tutorial:
 - A xref:cloud:ROOT:create-serverless-cluster.adoc[{hazelcast-cloud} Standard cluster].
 - link:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Git]
 - link:https://maven.apache.org/install.html[Maven]
-- JDK 8, 9, or 11 installed and set up as the `JAVA_HOME` environment variable.
+- JDK 17 or later installed and set up as the `JAVA_HOME` environment variable.
 
 [[step-one]]
 == Step 1. Create a MongoDB Atlas Database
