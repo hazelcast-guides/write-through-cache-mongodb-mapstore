@@ -1,13 +1,13 @@
 = Use Hazelcast as a Write-Through Cache with MongoDB
 :experimental: true
 
-This is an example of how to use MapStore and MongoDB with Hazelcast Viridian.
+This is an example of how to use MapStore and MongoDB with Hazelcast Cloud.
 
 TIP: For step-by-step instructions of how to run this app, see the link:https://docs.hazelcast.com/tutorials/write-through-cache-serverless-mapstore[tutorial].
 
 == Quickstart
 
-. Add the required values for Hazelcast Viridian Maven plugin in the POM:
+. Add the required values for Hazelcast Cloud Maven plugin in the POM:
 
 - `clusterId`: Id of your Hazelcast cluster
 - `apiKey`: API key
@@ -19,7 +19,7 @@ TIP: For step-by-step instructions of how to run this app, see the link:https://
 mvn clean package hazelcast-cloud:deploy
 ```
 
-. Configure the following properties for the MapStore in the Hazelcast Viridian console:
+. Configure the following properties for the MapStore in the Hazelcast Cloud console:
 
 - `uri`: link:https://docs.mongodb.com/manual/reference/connection-string/[MongoDB connection string]
 - `database`: Name of your MongoDB database

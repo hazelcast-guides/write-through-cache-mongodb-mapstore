@@ -81,7 +81,7 @@
                 <artifactId>hazelcast-cloud-maven-plugin</artifactId>
                 <version>0.2.0</version>
                 <configuration>
-                    <apiBaseUrl>https://api.viridian.hazelcast.com</apiBaseUrl>
+                    <apiBaseUrl>https://api.cloud.hazelcast.com</apiBaseUrl>
                     <clusterId></clusterId>
                     <apiKey></apiKey>
                     <apiSecret></apiSecret>

@@ -27,7 +27,7 @@ asciidoc:
     page-experimental: true
     idprefix: ''
     idseparator: '-'
-    hazelcast-cloud: Viridian
-    page-cloud-console: https://viridian.hazelcast.com/
+    hazelcast-cloud: Cloud
+    page-cloud-console: https://cloud.hazelcast.com/
   extensions:
     - ./lib/tabs-block.js
