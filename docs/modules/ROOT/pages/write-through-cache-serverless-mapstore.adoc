@@ -168,7 +168,8 @@ In this step, you'll use the xref:cloud:ROOT:maven-plugin-hazelcast.adoc[Hazelca
 
 |`<apiKey>` and `<apiSecret>`
 |
-include::cloud:ROOT:developer.adoc[tag=create]
+
+include::cloud:ROOT:partial$create-api-key.adoc[tag=create]
 
 |===
 +
