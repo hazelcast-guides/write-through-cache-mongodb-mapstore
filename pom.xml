@@ -11,7 +11,7 @@
     <name>Hazelcast as a write-through cache with MongoDB</name>
 
     <properties>
-        <hazelcast.version>5.3.2</hazelcast.version>
+        <hazelcast.version>5.7.0</hazelcast.version>
         <jdk.version>11</jdk.version>
         <logback-classic.version>1.4.14</logback-classic.version>
         <lombok.version>1.18.30</lombok.version>
