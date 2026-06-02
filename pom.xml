@@ -14,7 +14,7 @@
         <hazelcast.version>5.7.0</hazelcast.version>
         <jdk.version>11</jdk.version>
         <logback-classic.version>1.4.14</logback-classic.version>
-        <lombok.version>1.18.30</lombok.version>
+        <lombok.version>1.18.46</lombok.version>
         <mongo-java-driver.version>3.12.7</mongo-java-driver.version>
         <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
         <maven.compiler.plugin.version>3.15.0</maven.compiler.plugin.version>
