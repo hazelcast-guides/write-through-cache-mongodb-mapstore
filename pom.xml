@@ -15,7 +15,7 @@
         <jdk.version>11</jdk.version>
         <logback-classic.version>1.5.34</logback-classic.version>
         <lombok.version>1.18.46</lombok.version>
-        <mongo-java-driver.version>3.12.7</mongo-java-driver.version>
+        <mongo-java-driver.version>3.12.14</mongo-java-driver.version>
         <maven-shade-plugin.version>3.6.2</maven-shade-plugin.version>
         <maven.compiler.plugin.version>3.15.0</maven.compiler.plugin.version>
     </properties>
